@@ -24,6 +24,7 @@ body {
     right: 30px;
     
 }
+
 .right-box-contact{
   margin-bottom: 30px;
 }
@@ -41,16 +42,30 @@ body {
   background: #f5f5f5;
   color: #ec6c75
 }
-.wrapper .sidebar{
-  background: rgba(5, 68, 104,0.6);
-    /*position:fixed;*/
-    margin-top: 50px;
-    margin-left: -400px;
+.content{
+  /*background: rgba(231, 235, 238, 0.6);
+    position:fixed;*/
+    margin-top: -400px;
+    margin-right:-150px;
     top: 0;
     left: 0;
-    width: 300px;
+    width: 800px;
     height: 500px;
     padding: 20px 0;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+.wrapper .sidebar{
+  background: rgba(231, 235, 238, 0.6);
+    /*position:fixed;*/
+    margin-top: -100px;
+    margin-left: -320px;
+    top: 0;
+    left: 0;
+    width: 270px;
+    height: 400px;
+    padding: 20px 0;
+    border-radius: 10%;
     transition: all 0.5s ease;
 }
 .wrapper .sidebar .profile{
@@ -79,7 +94,7 @@ body {
   display: block;
   padding: 13px 30px;
   border-bottom: 1px solid #e3e7eb;
-  color: rgb(241, 237, 237);
+  color: #e62b3e;
   font-size: 16px;
   position: relative;
   
@@ -94,45 +109,37 @@ body {
 
 .wrapper .sidebar ul li a:hover,
 .wrapper .sidebar ul li a.active{
-  color: #e62b3e;
+  color: #aab0b6;
 
-  background:rgb(14, 13, 13);
+  background:rgb(216, 209, 209);
   border-right: 2px solid rgb(214, 219, 223);
 }
 
 .wrapper .sidebar ul li a:hover .icon,
 .wrapper .sidebar ul li a.active .icon{
-  color: #fff;
+  color: #e62b3e;
 }
 
 .wrapper .sidebar ul li a:hover:before,
 .wrapper .sidebar ul li a.active:before{
   display: block;
 }
-.content{
-  background: rgba(5, 68, 104,0.6);
-    /*position:fixed;*/
-    margin-top: -500px;
-    margin-right:-300px;
-    top: 0;
-    left: 0;
-    width: 800px;
-    height: 500px;
-    padding: 20px 0;
-    transition: all 0.5s ease;
-}
+
 
 ::selection {
-  background: #000;
+  background: rgb(173, 170, 170);
   color: #fff; }
 .social-32913 a {
     display: inline-block;
     position: relative;
     width: 40px;
     height: 40px;
-    background: #e62b3e;
     color: #e62b3e;
     border-radius: 50%; }
+    .social-32913:hover {
+    
+      color: #e62b3e;
+     }
 .social-32913 a > span {
       position: absolute;
       top: 50%;
@@ -750,7 +757,7 @@ a {
 
 .social-icon:hover {
   color: #eec60a !important;
-  background: #1a3373; }
+  background: #e66060; }
 
 .property-entry {
   -webkit-box-shadow: 0 0 10px -2px rgba(0, 0, 0, 0.1);
@@ -1001,7 +1008,7 @@ a {
   display: block; }
   .service .icon {
     font-size: 60px;
-    color: #1f3c88; }
+    color: #e62b3e; }
   .service .service-heading {
     color: #000;
     font-size: 1.2rem;
@@ -1128,7 +1135,7 @@ a {
     }
     .card2{
       height: auto;
-      margin-top: auto;
+      margin-top: -95px;
       margin-bottom: auto;
       width: 600px;
       background-color: rgba(255, 255, 255, 0.5) !important;
@@ -1146,7 +1153,7 @@ color: white;
   }
   
   .social_icon span:hover{
-  color: white;
+  color: #e62b3e;
   cursor: pointer;
   }
   

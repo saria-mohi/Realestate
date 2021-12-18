@@ -485,6 +485,8 @@
 }
 .icon-phone:before {
   content: "\f095";
+  font-size: 25px;
+
 }
 .icon-square-o:before {
   content: "\f096";
