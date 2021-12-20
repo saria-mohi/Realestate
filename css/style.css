@@ -1131,8 +1131,8 @@ a {
     margin-top: auto;
     margin-bottom: auto;
     width: 400px;
-    background-color: rgba(0, 0, 0,0.4) !important;
-    }
+    background-color: rgba(255, 255, 255, 0.5) !important;
+  }
     .card2{
       height: auto;
       margin-top: -95px;
