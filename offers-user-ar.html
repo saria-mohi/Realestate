@@ -45,7 +45,7 @@
         <div class="container py-1">
           <div class="row align-items-center">
             <div class="col-8 col-md-8 col-lg-4">
-              <h1 class="mb-0"><a href="index-ar.html" class="text-white h2 mb-0"><strong> <span class="text-danger">.</span>مجموعة حسبو</strong></a></h1>
+              <h1 class="mb-0"><a href="index-ar.html" class="text-white h2 mb-0"></span>مجموعة حسبو<strong> <span class="text-danger">.</strong></a></h1>
             </div>
             <div class="col-4 col-md-4 col-lg-8">
               <nav class="site-navigation text-right text-md-right" role="navigation">
@@ -55,7 +55,7 @@
                   <li><a href="real-estate-ar.html">العقارات</a></li>
                   <li><a href="about-ar.html">حولنا</a></li>
                   <li><a href="contact-ar.html">تواصل معنا</a></li>
-                  <li><a href="login.html" class="rounded-pill btn btn-secondary btn-outline-white py-3 px-5 btn-2 ">تسجيل دخول</a></li>
+                  <li><a href="login-ar.html" class="rounded-pill btn btn-secondary btn-outline-white py-3 px-5 btn-2 ">تسجيل دخول</a></li>
                 </ul>
                 <div class="button-container ">
                   <a href="tel:+2491112135454515"><span class="icon-phone"></span></a>
@@ -73,7 +73,7 @@
       <div class="container">
         <div class="row align-items-center justify-content-center text-center">
           <div class="col-md-10">
-            
+          <h1 class="mb-2"> عـــروضي</h1>
           </div>
         </div>
       </div>
@@ -84,23 +84,22 @@
       <div class="container py-5">
         <div class="col-md-10 mx-auto">
             <div class="row align-items-center justify-content-center text-center">
-                <div class="wrapper">
-                    <!--Top menu -->
-                    <div class="sidebar">
-                       <!--profile image & text-->
-                       <div class="profile">
-                            <img src="images/user.jpg" alt="profile_picture">
-                            <h1>اسم المستخدم</h1>
+              <div  class="row wrapper">
+                <div class="col-md-4">                    
+                  <div class="sidebar ">
+                    <div class="profile">
+                      <img src="images/user.jpg" alt="profile_picture">
+                      <h1>اسم المستخدم</h1>
                     </div>
                     <ul style="list-style-type: none;" >
                       <li>
-                        <a href="profile-user-ar.html" class="active">
+                        <a href="profile-user-ar.html" >
                           <span class="icon"><i class="icon icon-user-circle"></i></span>
                           <span class="item">الحساب الشخصي</span>
                         </a>
                       </li>
                       <li>
-                        <a href="offers-user-ar.html">
+                        <a href="offers-user-ar.html"class="active">
                           <span class="icon"><i class="icon icon-tags"></i></span>
                           <span class="item">عروضي</span>
                         </a>
@@ -110,25 +109,34 @@
                           <span class="icon"><i class="icon icon-sign-out"></i></span>
                           <span class="item">تسجيل خروج</span>
                         </a>
-                            </li>
-                        </ul>
+                      </li>
+                    </ul>
                     </div>
-                    <div class= "content contents">
-                <div class="">
-                    <div class="card-header">
-                      <h1>عروضي</h1>
+                  </div>
+                  
+                    <div class= "content ">
+                    <div class="card-header ">
+                      <div class="row">
+                        <div class="col-md-2">
+                      <a  href="offer-ar.html" class="rounded-pill btn btn-secondary btn-outline-white btn-2 py-3 px-5"> <i class="icon icon-plus text-white right" title ="اضافة عرض جديد"></i></a>
+                        </div>
+                        
+                        <div class="col-md-6">
+                          <h1>عروضي</h1>
+                            </div>
+                      </div>
                     </div>
-                <div class="">
-                    <table class = "table ">
+                    <table class = "table border ">
+                      
                         <thead>
-                            <tr style="background-color:#e62b3e;">
+                            <tr>
                                 <th scpoe = "col" ># </th>
                                 <th scpoe = "col" >اسم المبنى </th>
                                 <th scpoe = "col" >وع المبنى </th>
                                 <th scpoe = "col" >المكان</th>
                                 <th scpoe = "col" >السعر</th>
                                 <th scpoe = "col" >التفاصيل</th>
-                                <th scpoe = "col" >إضافة عرض جديد</th>
+                                <th scpoe = "col" > العمليات </th>
                             </tr>
                             <tr>
                                 <td scpoe = "col" > 1 </td>
@@ -137,7 +145,10 @@
                                 <td scpoe = "col" >الخرطوم</td>
                                 <td scpoe = "col" >200</td>
                                 <td scpoe = "col" >  3 غرف و 4 حمامات وصالو</td>
-                                <td scpoe = "col" > <a href="offer-ar.html"><span class="icon"><i class="icon icon-plus" title="إضافة عرض جديد"></i></span></a></td>
+                                <td scpoe = "col" > 
+                                  <a href="edit-offer-ar.html"><span class="icon"><i class="icon icon-edit" title="تعديل العرض "></i></span></a>
+                                  <a href="#"><span class="icon"><i class="icon icon-trash" title="حذف العرض "></i></span></a>
+                                </td>
                             </tr> 
                             <tr>
                                 <td scpoe = "col" > 2 </td>
@@ -146,18 +157,21 @@
                                 <td scpoe = "col" >المنشية</td>
                                 <td scpoe = "col" >200</td>
                                 <td scpoe = "col" >طابق أول</td>
-                                <td scpoe = "col" > <a href="offer-ar.html"><span class="icon"><i class="icon icon-plus" title="إضافة عرض جديد"></i></span></a></td>
-                            </tr>
-
-                    </table>
-                </div>
-        </div>
-        </div>
-            </div>
+                                <td scpoe = "col" > 
+                                  <a href="edit-offer-ar.html"><span class="icon"><i class="icon icon-edit" title="تعديل العرض "></i></span></a>
+                                  <a href="#"><span class="icon"><i class="icon icon-trash" title="حذف العرض "></i></span></a>
+                                </td> 
+                             </tr>
+                            </table>
+                          </div>
                         </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
+        
 
                 </div><!-- end col -->
               </div>

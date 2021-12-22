@@ -198,7 +198,8 @@ caption {
   caption-side: bottom; }
 
 th {
-  text-align: inherit; }
+  text-align: inherit;
+  background-color:#e62b3e;    }
 
 label {
   display: inline-block;
@@ -2404,10 +2405,10 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #1f3c88;
+  color: #e62b3e;
   background-color: transparent; }
   .btn-link:hover {
-    color: #11214a;
+    color: #e62b3e;
     text-decoration: underline;
     background-color: transparent;
     border-color: transparent; }
@@ -2624,7 +2625,7 @@ input[type="button"].btn-block {
   .dropdown-item.active, .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #1f3c88; }
+    background-color: #e62b3e; }
   .dropdown-item.disabled, .dropdown-item:disabled {
     color: #6c757d;
     background-color: transparent; }
@@ -3242,7 +3243,7 @@ input[type="button"].btn-block {
   .nav-link:hover, .nav-link:focus {
     text-decoration: none; }
   .nav-link.disabled {
-    color: #6c757d; }
+    color: #e62b3e; }
 
 .nav-tabs {
   border-bottom: 1px solid #dee2e6; }
@@ -3903,20 +3904,20 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #1f3c88;
+  color: #e62b3e;
   background-color: #fff;
   border: 1px solid #dee2e6; }
   .page-link:hover {
     z-index: 2;
-    color: #11214a;
+    color: #e62b3e;
     text-decoration: none;
     background-color: #e9ecef;
     border-color: #dee2e6; }
   .page-link:focus {
     z-index: 2;
     outline: 0;
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(31, 60, 136, 0.25);
-    box-shadow: 0 0 0 0.2rem rgba(31, 60, 136, 0.25); }
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(230, 43, 62, 0.25);
+    box-shadow: 0 0 0 0.2rem rgba(230, 43, 62, 0.25); }
   .page-link:not(:disabled):not(.disabled) {
     cursor: pointer; }
 
@@ -3932,8 +3933,8 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 1;
   color: #fff;
-  background-color: #1f3c88;
-  border-color: #1f3c88; }
+  background-color: #e62b3e;
+  border-color: #e62b3e; }
 
 .page-item.disabled .page-link {
   color: #6c757d;
@@ -7200,10 +7201,10 @@ button.bg-dark:focus {
   color: #fff !important; }
 
 .text-primary {
-  color: #1f3c88 !important; }
+  color: #e62b3e !important; }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #162a5e !important; }
+  color: #e62b3e !important; }
 
 .text-secondary {
   color: #6c757d !important; }
