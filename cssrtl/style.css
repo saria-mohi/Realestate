@@ -14,8 +14,11 @@ body {
     color: rgba(0, 0, 0, 0.6);
     font-weight: 600;
     font-size: 1rem;
-    font-family: 'Amiri', serif;
-    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-family: 'DroidArabicKufiRegular';
+}
+
+.marg {
+    margin-top: 75px;
 }
 
 .element {
@@ -585,7 +588,7 @@ a:hover {
 
 .site-navbar .site-navigation .site-menu {
     margin-bottom: 0;
-    margin-right: 0;
+    margin-right: 70px;
     padding-right: 0;
 }
 
@@ -640,7 +643,7 @@ a:hover {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-family: 'DroidArabicKufiRegular';
 }
 
 .site-navbar .site-navigation .site-menu .has-children .dropdown {
@@ -881,7 +884,7 @@ a:hover {
 .site-mobile-menu .site-nav-wrap .arrow-collapse:before {
     font-size: 12px;
     z-index: 20;
-    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-family: 'DroidArabicKufiRegular';
     content: "\f078";
     position: absolute;
     top: 50%;
@@ -1538,7 +1541,7 @@ a:hover {
 }
 
 .unit-8 .accordion-item .heading>a[aria-expanded="true"]:before {
-    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-family: 'DroidArabicKufiRegular';
     position: absolute;
     content: "\e316";
     -webkit-transition: .3s all ease;
@@ -1552,7 +1555,7 @@ a:hover {
 .unit-8 .accordion-item .heading>a[aria-expanded="false"]:before {
     content: "\e313";
     color: #ccc;
-    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-family: 'DroidArabicKufiRegular';
     position: absolute;
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
