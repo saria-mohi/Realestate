@@ -24,7 +24,14 @@ body {
     right: 30px;
     
 }
-
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #fff;
+  border-color: #e62b3e; }
+th{
+  background-color:#e62b3e;
+  color:#fff;
+ }
 .right-box-contact{
   margin-bottom: 30px;
 }
@@ -359,7 +366,7 @@ a {
   background: #333333; }
   @media (min-width: 768px) {
     .site-footer {
-      padding: 7em 0; } }
+      padding: 2em 0; } }
   .site-footer p {
     color: #737373; }
   .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5 {
@@ -679,7 +686,7 @@ a {
     min-height: 600px;
     height: calc(100vh); }
   .site-blocks-cover.inner-page-cover, .site-blocks-cover.inner-page-cover .row {
-    min-height: 400px;
+    min-height: 300px;
     height: calc(30vh); }
   .site-blocks-cover .sub-text {
     font-size: 1.1rem;
