@@ -64,9 +64,9 @@ th {
 
 .content {
     /*background: rgba(231, 235, 238, 0.6);
-    position:fixed;*/
-    margin-top: -400px;
-    margin-right: -150px;
+    position:fixed;
+    margin-top: px;
+    margin-right: px;*/
     top: 0;
     left: 0;
     width: 800px;
@@ -78,9 +78,9 @@ th {
 
 .wrapper .sidebar {
     background: rgba(231, 235, 238, 0.6);
-    /*position:fixed;*/
+    /*position:fixed;
     margin-top: -100px;
-    margin-left: -320px;
+    margin-left: -320px;*/
     top: 0;
     left: 0;
     width: 270px;
@@ -1604,7 +1604,7 @@ a:hover {
 
 .card2 {
     height: auto;
-    margin-top: -95px;
+    margin-top: px;
     margin-bottom: auto;
     width: 600px;
     background-color: rgba(255, 255, 255, 0.5) !important;
